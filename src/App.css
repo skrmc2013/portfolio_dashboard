@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  height: 4px;
+
+}
+::-webkit-scrollbar-track{
+  background: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 70px;
+  background: linear-gradient(#642bff, #ff22e6, #d1e5ff, hsl(222.2, 47.4%, 20.2%), hsl(222, 79%, 43%),hsl(222, 31%, 79%),hsl(179, 54%, 37%), hsl(27, 91%, 48%), hsl(222, 90%, 49%), hsl(138, 89%, 47%), hsl(181, 93%, 47%), hsl(315, 29%, 71%));
+}
+.avatar-update-btn::file-selector-button{
+  width: 100%;
+  padding: 7px;
+  font-weight: 600;
+  border: 1px solid hsl(222.2, 47.4%, 11.2%);
+  background: hsl(222.2, 47.4%, 11.2%);
+  border-radius: 8PX;
+  cursor: pointer;
+  color: #fff;
+  
+}
+.avatar-update-btn::file-selector-button:hover{
+  background: transparent;
+  /* color: hsl(222.2, 47,4%, 11.2%); */
+color:#111;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  height: 0px !important;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */

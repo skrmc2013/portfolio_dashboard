@@ -1,0 +1,7 @@
+.crop-box {
+    position: absolute;
+    border: 2px dashed #4a5568; /* Tailwind's gray-600 color */
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    cursor: move;
+  }
+  
